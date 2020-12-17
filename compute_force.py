@@ -13,7 +13,7 @@ Parameters
 '''
 
 # Materials of bodies B1 and B2
-Material_B1,Material_B2 = 'ZrO2','SiO2'
+Material_B1,Material_B2 = 'Fe','SiO2'
 
 # Orientations of bodies B1 and B2
 R_B1,R_B2 = np.eye(3),np.eye(3)
