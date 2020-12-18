@@ -8,5 +8,5 @@ Given two elastically anisotropic bodies of arbitrary shape contacting at a sing
 
 ## Main files
 
-* **compute_force** computes the force between two elastic bodies for a given configuration.
-* **compute_pole_plot** computes the force between a rigid plate and an elastic body and plots the orientation-dependence of the force in a pole plot.
+* **compute_force** computes the force between two elastic bodies for a given orientation of the bodies and contact normal direction (see Figure 1).
+* **compute_pole_plot** computes the force between a rigid plate and an elastic body for all possible orientations of the contact normal and displays the orientation-dependence of the force in a pole plot.
