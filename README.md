@@ -1,6 +1,6 @@
 # AnisotropicGrains
 
-This code accompanies the paper [Contact model for elastically anisotropic bodies and efficient implementation into the discrete-element method](https://arxiv.org/abs/2006.13148) by Mowlavi & Kamrin (2020).
+This code accompanies the paper [Contact model for elastically anisotropic bodies and efficient implementation into the discrete-element method](https://link.springer.com/article/10.1007/s10035-021-01104-7) by Mowlavi & Kamrin (2021).
 
 Given two elastically anisotropic bodies of arbitrary shape contacting at a single point (see Figure 1), we provide a contact force law that returns the normal force exerted between the two bodies as a function of their orientations, surface geometries and elastic constants, as well as the direction of contact and overlap distance. This contact force law, which is presented in Section 4.1 of the paper, can be implemented in a straightforward manner into any discrete-element method (DEM) code that already tracks particle orientations.
 
